@@ -257,4 +257,8 @@ nav {
   .nav-middle .voice-search-icon {
     width: 12px;
   }
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
