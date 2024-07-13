@@ -249,6 +249,12 @@ nav {
   }
   .nav-right .avatar {
     display: block;
-    width: 30px;
+    width: 24px;
+  }
+  .nav-left .logo {
+    width: 88px;
+  }
+  .nav-middle .voice-search-icon {
+    width: 12px;
   }
 }
