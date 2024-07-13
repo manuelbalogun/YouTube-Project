@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "sans-serif";
+  box-sizing: border-box;
+}
+
+/*---------- Nav Bar ----------*/
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-right img {
+  width: 25px;
+  margin-right: 25px;
+}
+
+.nav-right .avatar {
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.nav-left .menu-icon {
+  width: 25px;
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.nav-left .logo {
+  width: 120px;
+}
+
+.nav-middle .voice-search-icon {
+  width: 16px;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 30vw;
+}
+
+.nav-middle .search-box img {
+  width: 15px;
+}
+
+/*---------- Side Bar ----------*/
+
+.sidebar {
+  background: white;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+
+.shortcut-links a img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.shortcut-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: transparent;
+  padding: 8px 12px;
+}
+
+.shortcut-links a:first-child {
+  background-color: rgba(243, 238, 238, 0.5);
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #ed3833;
+  font-weight: 700;
+}
+
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 95%;
+}
+
+.subscribed-list h3 {
+  font-size: 13px;
+  margin: 24px 0;
+  color: #5a5a5a;
+  margin-left: 12px;
+}
+
+.subscribed-list a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-wrap: wrap;
+  margin-left: 12px;
+}
+
+.subscribed-list a img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.small-sidebar {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.small-sidebar a p {
+  display: none;
+}
+
+.small-sidebar h3 {
+  display: none;
+}
+
+.small-sidebar hr {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.small-sidebar .shortcut-links a {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 12px;
+}
+
+.small-sidebar a img {
+  margin-right: 0;
+}
+
+/*---------- Main ----------*/
+.container {
+  background: white;
+  padding-left: 240px;
+  padding-right: 2%;
+  padding-top: 24px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(Images/banner2.jpg);
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 40px;
+  margin-top: 40px;
+}
+
+.vid-list-item .thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.vid-list-item .flex-div {
+  align-items: flex-start;
+  margin-top: 7px;
+}
+
+.vid-list-item .flex-div img {
+  width: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.vid-info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+
+.vid-info a {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.vid-info p:last-child {
+  margin-top: 4px;
+}
