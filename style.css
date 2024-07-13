@@ -188,6 +188,36 @@ nav {
   border-radius: 12px;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.banner-title {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.banner-title span {
+  text-decoration: line-through;
+}
+
+.banner-paragraph {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.banner button {
+  height: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: white;
 }
 
 .list-container {
