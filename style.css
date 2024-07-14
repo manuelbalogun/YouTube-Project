@@ -206,13 +206,11 @@ nav {
 
 .banner-paragraph {
   font-size: 18px;
-  margin-bottom: 28px;
+  margin-bottom: 56px;
 }
 
-.banner button {
-  height: 48px;
-  padding-left: 40px;
-  padding-right: 40px;
+.banner-button {
+  padding: 16px 36px;
   border-radius: 8px;
   border: none;
   font-size: 16px;
