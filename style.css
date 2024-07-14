@@ -291,4 +291,10 @@ nav {
     padding-left: 5%;
     padding-right: 5%;
   }
+  .banner-title {
+    font-size: 28px;
+  }
+  .banner-paragraph {
+    font-size: 16px;
+  }
 }
