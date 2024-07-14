@@ -94,7 +94,7 @@ nav {
 .shortcut-links a {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   width: 100%;
   flex-wrap: wrap;
   background-color: transparent;
