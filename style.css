@@ -295,4 +295,7 @@ nav {
   .banner-paragraph {
     font-size: 16px;
   }
+  .banner {
+    height: 320px;
+  }
 }
