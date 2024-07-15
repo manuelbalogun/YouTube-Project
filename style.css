@@ -399,12 +399,35 @@ nav {
 
 .vid-description .text {
   margin-bottom: 32px;
+  line-height: 150%;
 }
 
 .vid-description h4 {
   font-size: 14px;
   color: #5a5a5a;
   margin-top: 28px;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.add-comment img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.add-comment input {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  background: transparent;
 }
 
 /*---------- Mobile ----------*/
