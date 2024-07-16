@@ -430,6 +430,35 @@ nav {
   background: transparent;
 }
 
+.old-comment {
+  display: flex;
+  align-items: start;
+  margin: 20px 0;
+}
+
+.old-comment img {
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.old-comment h3 {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #5a5a5a;
+}
+
+.old-comment h3 span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5a5a5a;
+  margin-left: 8px;
+}
+
+.old-comment p {
+  font-size: 14px;
+}
+
 /*---------- Mobile ----------*/
 
 @media (max-width: 900px) {
