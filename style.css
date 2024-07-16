@@ -452,11 +452,34 @@ nav {
   font-size: 12px;
   font-weight: 400;
   color: #5a5a5a;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .old-comment p {
   font-size: 14px;
+}
+
+.old-comment .comment-action {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.old-comment .comment-action img {
+  width: 16px;
+  border-radius: 0;
+  margin-right: 5px;
+}
+
+.old-comment .comment-action span {
+  margin-right: 20px;
+  color: #5a5a5a;
+}
+
+.old-comment .comment-action a {
+  color: #00f;
+  font-weight: 500;
 }
 
 /*---------- Mobile ----------*/
