@@ -328,6 +328,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: 10px;
   font-size: 13px;
   color: #5a5a5a;
@@ -488,7 +489,7 @@ nav {
 
 /*---------- Mobile ----------*/
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   .menu-icon {
     display: none;
   }
@@ -514,8 +515,8 @@ nav {
     width: 12px;
   }
   nav {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .banner-title {
     font-size: 24px;
@@ -533,5 +534,34 @@ nav {
     font-size: 14px;
     font-weight: 600;
     background: white;
+  }
+
+  .play-video {
+    flex-basis: 100%;
+  }
+  .right-sidebar {
+    flex-basis: 100%;
+  }
+  .video-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .vid-description {
+    padding-left: 0;
+  }
+
+  .play-video .play-video-info {
+    padding-left: 0;
+    margin-left: 0;
+    row-gap: 15px;
+  }
+
+  .play-video .play-video-info a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .container {
+    padding-bottom: 30px;
   }
 }
