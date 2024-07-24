@@ -249,7 +249,7 @@ nav {
 
 .vid-info {
   color: #5a5a5a;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .vid-info a {
@@ -294,8 +294,10 @@ nav {
 
 .side-video-list {
   display: flex;
+  row-gap: 12px;
   justify-content: space-between;
-  margin-bottom: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
 .side-video-list img {
@@ -563,5 +565,13 @@ nav {
 
   .container {
     padding-bottom: 30px;
+  }
+
+  .side-video-list .small-thumbnail {
+    flex-basis: 100%;
+  }
+
+  .side-video-list .vid-info {
+    flex-basis: 100%;
   }
 }
